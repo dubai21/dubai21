@@ -1,0 +1,94 @@
+@font-face {font-family: Amiri; src: url("Amiri.ttf") format("truetype"); } 
+* {font-family: Amiri; }
+body{
+    background: linear-gradient(to left, #5f1f17, #fff3bb);
+    font-size: 25px;
+}
+.title img{
+    width: 100%;
+}
+.cont{
+    border: 1px solid white;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.prod{
+    margin: 40px 10px;
+    text-align: center;
+    align-items: center;
+
+}
+.imgprod{
+    width: 100%;
+}
+.prod button{
+    width: 30%;
+    padding: 2px;
+    font-size: 25px;
+    border: none;
+}
+.sdg{
+    background-color: #ffebc5;
+}
+.det{
+    background-color: #ffbb3c;
+}
+.pay{
+    background-color: #008011;
+}
+.media{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+   /* start slide show  style  --------------------------------------------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides1 , .mySlides2 , .mySlides3 , .mySlides4 , .mySlides5 , .mySlides6{
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: right;
+    width: 25%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+   /* end of slide show  style  --------------------------------------------------------------------------------------------------------------*/
